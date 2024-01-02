@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2</title>
+</head>
+
+<body>
+    <script>
+        function cancelFunction() {
+            alert("You canceled");
+        }
+        while (true) {
+            var age = prompt("Enter Your Age");
+            if (age > 0) {
+                if (age >= 1 && age < 11) {
+                    alert("You are a child");
+                }
+                else if (age >= 11 && age <= 18) {
+                    alert("You are a teenager");
+                }
+                else if (age >= 19 && age < 50) {
+                    alert("You are grown up");
+                }
+                else {
+                    alert("You are an old person");
+                }
+            }
+            else {
+                if (age < 0)
+                    alert("Invalid Option, Your Age Must Be a +v Number");
+
+                else if (age === null) {
+                    cancelFunction();
+                    break;
+                }
+            }
+        }        
+    </script>
+    <br>
+    <script>
+        name = new Array();
+        name = prompt("Enter Your Name");
+        count = 0
+        for (i = 0; i < name.length; i++) {
+            switch (name[i]) {
+                case "a":
+                case "A":
+                    count++;
+                    break;
+
+                case "e":
+                case "E":
+                    count++;
+                    break;
+
+                case "o":
+                case "O":
+                    count++;
+                    break;
+
+                case "u":
+                case "U":
+                    count++;
+                    break;
+
+                case "i":
+                case "I":
+                    count++;
+                    break;
+            }
+        }
+        alert(`Number of vowels in ${name} is ${count}`);
+    </script>
+    <br>
+    <script>
+        var hour = prompt("Enter The Hour");
+        if (hour >= 0 && hour <= 23) {
+            if (hour == 0) {
+                alert("The Time Is 12 AM");
+            }
+            else if (hour < 12) {
+                alert(`The Time Is ${hour} AM`);
+            }
+            else if (hour == 12) {
+                alert("The Time Is 12 PM");
+            }
+            else
+                alert(`The Time Is ${hour - 12} PM`);
+        }
+    </script>
+</body>
+
+</html>
