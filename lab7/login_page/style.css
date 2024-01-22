@@ -1,0 +1,70 @@
+body {
+    background-color: #1fb95a;
+}
+
+.form-box {
+    width: 90%;
+    max-width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px 50px 20px;
+    text-align: center;
+}
+
+.form-box h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: white;
+    position: relative;
+}
+
+.input-field {
+    background: #eaeaea;
+    margin: 20px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+form p {
+    text-align: center;
+    font-size: 13px;
+}
+
+form p a {
+    text-decoration: none;
+    color: green;
+}
+
+.btn-field {
+    width: 210%;
+    display: flex;
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    background: green;
+    color: #fff;
+    height: 50px;
+    border-radius: 3px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.input-group {
+    height: 140px;
+}
