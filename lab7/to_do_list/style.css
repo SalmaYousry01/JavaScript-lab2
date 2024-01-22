@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.toDoList {
+    width: 100%;
+    max-width: 540px;
+    background: rgb(242, 242, 242);
+    margin: 100px auto 20px;
+    padding: 40px 30px 50px;
+    border-radius: 10px;
+}
+
+
+
+button {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px 20px;
+    background: rgb(33, 115, 214);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+#list-container {
+    list-style: none;
+    font-size: 17px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 10px; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.task-name {
+    margin-right: auto;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+label {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#input-box {
+    width: fit-content;
+    padding: 7px 50px 7px 8px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 30px;
+}
+
+.yesClicked {
+    background-color: #dcf4dc;
+    /* Green background color when clicked */
+}
