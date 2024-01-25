@@ -1,0 +1,31 @@
+body {
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 145, 18);
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    height: 300px;
+    margin-top: 50px;
+}
+
+.next-btn,
+.prev-btn {
+    cursor: pointer;
+}
