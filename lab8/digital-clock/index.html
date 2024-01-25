@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stop watch</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="digital-clock">
+            <div class="timer-container">
+                <div class="timer">
+                    <div class="week-days">
+                        <span class="day">MON</span>
+                        <span class="day">TUE</span>
+                        <span class="day">WED</span>
+                        <span class="day">THU</span>
+                        <span class="day">FRI</span>
+                        <span class="day">SAT</span>
+                        <span class="day">SUN</span>
+                    </div>
+                    <div class="time">
+                        <span class="hours"></span>
+                        <span>:</span>
+                        <span class="minutes"></span>
+                        <span>:</span>
+                        <span class="seconds"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alarm-container">
+            <div class="alarm">
+                <label for="alarm"> SET ALARM AFTER</label>
+                <div class="set-alarm">
+                    <div class="hours-container">
+                        <label for="hoursIn">HOURS</label>
+                        <input class="hoursIn" type="text" />
+                    </div>
+                    <div class="minutes-container">
+                        <label for="minutesIn">MINUTES</label>
+                        <input class="minutesIn" type="text" />
+                    </div>
+                    <div class="seconds-container">
+                        <label for="secondsIn">SECONDS</label>
+
+                        <input class="secondsIn" type="text" />
+                    </div>
+                </div>
+                <div class="btns">
+                    <button class="setBtn">Set</button>
+                    <button class="clearBtn">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="clock.js"></script>
+</body>
+
+</html>
